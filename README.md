@@ -27,7 +27,7 @@ Aplicação web desenvolvida para a coleta e o processamento de dados de novos c
 2. Certifique-se de que o servidor Apache esteja ativo.
 3. Acesse `http://localhost/cadastro-php/cadastro.html` pelo navegador.
 
-## // Aqui o fluxo de como funciona basicamente:
+## Aqui o fluxo de como funciona basicamente:
 
 cadastro.html
       ↓
