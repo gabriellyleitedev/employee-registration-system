@@ -1,0 +1,130 @@
+        <!DOCTYPE html>
+        <html lang="pt-BR">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Cadastro de Colaborador</title>
+            <link rel="stylesheet" href="styles.css">
+        </head>
+        <body>
+                
+    <!-- Glow Esmeralda Superior -->
+    <div class="background-glow"></div>
+
+    <!-- Linhas de Circuito Tech -->
+    <div class="tech-lines-left"></div>
+    <div class="tech-lines-right"></div>
+
+    <div class="container">
+        <!-- Watermark de Fundo -->
+        <div class="watermark-bg">CADASTRO</div>
+
+        <!-- NAVBAR -->
+        <header class="navbar">
+            <div class="logo">
+                <span class="logo-dot"></span>Brincos &Cia
+            </div>
+            <nav class="nav-links">
+                <a href="#" class="active">Cadastro</a>
+                <a href="#">Colaboradores</a>
+                <a href="#">Sobre</a>
+                <a href="#" class="nav-btn">Get Template &nearr;</a>
+            </nav>
+        </header>
+
+        <!-- HERO SECTION -->
+        <main class="hero">
+            <!-- LADO ESQUERDO -->
+            <section class="intro">
+                <div class="tag">
+                    <span class="tag-icon"></span>Contato
+                </div>
+                
+                <h1>Cadastro de Novo Colaborador</h1>
+                
+                <p>Preencha os dados abaixo para cadastrar o colaborador no sistema.</p>
+
+                <div class="info-cards-list">
+                    <div class="info-card">
+                        <div class="info-card-left">
+                            <div class="info-card-icon">&commat;</div>
+                            <div class="info-card-content">
+                                <h3>Email us</h3>
+                                <p>rh@brincosecia.com.br</p>
+                            </div>
+                        </div>
+                        <div class="arrow-circle">&nearr;</div>
+                    </div>
+
+                    <div class="info-card">
+                        <div class="info-card-left">
+                            <div class="info-card-icon">&#9742;</div>
+                            <div class="info-card-content">
+                                <h3>Call us</h3>
+                                <p>(11) 4002-8922</p>
+                            </div>
+                        </div>
+                        <div class="arrow-circle">&nearr;</div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- LADO DIREITO (FORMULÁRIO ) -->
+            <section class="form-card">
+                <div class="form-header">
+                    <div>
+                        <span class="small-title">FORMULÁRIO</span>
+                        <h2>Dados Pessoais</h2>
+                    </div>
+                    <span class="form-number">#01</span>
+                </div>
+
+                <form action="processaCadastro.php" method="POST">
+
+                    <div class="input-group">
+                        <label for="nome1">Nome completo:</label>
+                        <input type="text" id="nome1" name="nome1" required>
+                    </div>
+
+                    <div class="row">
+                        <div class="input-group">
+                            <label for="idade2">Idade:</label>
+                            <input type="number" id="idade2" name="idade2" required>
+                        </div>
+
+                        <div class="input-group salary-input">
+                            <label for="salario4">Salário pretendido:</label>
+                            <div style="position: relative;">
+                                <span>R$</span>
+                                <input type="number" id="salario4" name="salario4" step="0.01" required>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="input-group">
+                        <label for="profissao3">Profissão:</label>
+                        <input type="text" id="profissao3" name="profissao3" required>
+                    </div>
+
+                    <div class="input-group">
+                        <label for="experiencia5">Experiência anterior:</label>
+                        <textarea id="experiencia5" name="experiencia5" rows="6" cols="50" required></textarea>
+                    </div>
+
+                    <button type="submit">
+                        <span>Cadastrar</span>
+                        <span>&rarr;</span>
+                    </button>
+
+                </form>
+            </section>
+        </main>
+
+        <footer>
+            <span>&copy; 2026 LOJAS BRINCOS E COMPANHIA</span>
+            <span>SISTEMA DE RH</span>
+        </footer>
+    </div>
+
+</body>
+</html>
